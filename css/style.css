@@ -72,9 +72,9 @@ header{
     padding: 0 5px;
 }
 .btn {
-    border-radius: 5px;
-    background-color: white;
-    text-align: center;
+    padding: 10px 15px;
+    border-radius: 40px;
+    
 }
 
 .login {
@@ -103,8 +103,19 @@ p {display: flex;
     margin-top: 30px;
 
 }
- .btn .btn-scarica{
-    text-align: center;
+  
+ .btn-scarica{
+    background-color: white;
+    margin-left: 510px;
+    margin-top:10px;
+
+ }
+
+ .btn-apridiscord{
+    background-color: #23272A;
+    color: aliceblue;
+    margin-left: 23px;
+    border: #23272A;
  }
 .rosa{
     display: flex;
