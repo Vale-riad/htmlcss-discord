@@ -122,6 +122,11 @@ p {display: flex;
     margin-left: 50px;
     border: #23272A;
  }
+
+ .paragrafo-main{
+    color: #23272A;
+ }
+ 
 .rosa{
     display: flex;
     text-align: center;
@@ -160,7 +165,7 @@ h2{
 }
 
 .section .p{
-    color: black;
+    color:black;
 }
 .debug .col-big{
     background-color: #1e90ff;
