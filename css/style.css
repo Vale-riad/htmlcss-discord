@@ -160,7 +160,8 @@ p {display: flex;
     padding: 20px 0;
 }
 section:nth-child(even) {
-    background: lightgray;
+   background-color: lightgray;
+    background-size: cover;
   }
 h2{
     margin-top: 40px;
@@ -170,6 +171,10 @@ h2{
 .section .p{
     color:black;
    
+}
+
+.paragrafo-pari{
+    color: #23272A;
 }
 .debug .col-big{
     background-color: #1e90ff;
