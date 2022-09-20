@@ -1,0 +1,180 @@
+/*---------
+Reset
+---------*/
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+/*---------
+Debug
+---------*/
+
+.debug header{
+    background-color: #add8e6;
+    
+    
+}
+
+.debug .header-top{
+background-color: #daa502 ;
+height: 50px;
+
+}
+
+
+.container{
+
+    max-width: 1200px;
+    margin:auto;
+}
+
+
+.header-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.main-nav {
+    width: 60%;
+}
+.main-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+.main-nav ul li {
+    margin: 0 10px;
+}
+.main-nav ul li a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header{
+    padding: 16px 0;
+}
+.header-top .row {
+    align-items: center;
+}
+.logo, .login {
+    width: 20%;
+    padding: 0 5px;
+}
+
+.login {
+    text-align: right;
+}
+.debug .bottom-background{
+    background-color: #00008b;
+    height: 474px;
+    padding: 50px; 
+    
+
+}
+
+.rosa{
+    display: flex;
+    text-align: center;
+}
+.debug .rosa{
+    max-width: 800px;
+    height: 400px;
+    background-color: #ee82ee;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 50px 0;
+    
+    
+}
+
+.bottom-background{
+    padding: 50px 0;
+    margin: auto;
+}
+
+.container{
+    display: flex;
+    padding: 60px;
+}
+
+.section{
+    padding: 20px 0;
+}
+section:nth-child(even) {
+    background: lightgray;
+  }
+
+.debug .col-big{
+    background-color: #1e90ff;
+    height: 480px;
+    
+}
+.debug .col-small{
+    background-color: pink;
+    height: 480px;
+    
+}
+
+.debug .col-biggest{
+    background-color: green;
+    height: 480px;
+}
+
+
+
+.col-big{
+    width:60%;
+}
+
+.col-small{
+    width:40%;
+}
+
+
+.col-biggest{
+    width: 100%;
+}
+
+.debug .footer-top{
+    background-color: #23272A;
+}
+
+
+.debug .col-prima{
+    background-color: #F08080;
+    height: 500px;
+    width: 20%;
+
+}
+.debug .col-seconda{
+
+    background-color: #20B2AA;
+    height: 500px;
+    width: calc(100% /4)
+}
+
+hr{
+    background-color: lightgray;
+    margin: 10px;
+}
+
+.debug .footer-bottom{
+    background-color: #7FFFD4;
+height: 50px;
+}
+
+.logo-footer{
+    
+    background-color:#F08080 ;
+    text-align: left;
+}
+
+.bottone-footer{
+    background-color:#F08080 ;
+    text-align: left;
+}
