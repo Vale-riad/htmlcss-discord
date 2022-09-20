@@ -127,6 +127,8 @@ p {display: flex;
     color: #23272A;
     font-size: 18px;
     margin-top: 30px;
+    margin-left: 700px;
+    ;
  }
  
 .rosa{
@@ -168,7 +170,7 @@ h2{
 
 .section .p{
     color:black;
-    text-align: center;
+   
 }
 .debug .col-big{
     background-color: #1e90ff;
