@@ -176,6 +176,36 @@ h2{
 .paragrafo-pari{
     color: #23272A;
 }
+
+.titolo-quarta{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.paragrafo-quarta{
+    color: #23272A;
+    text-align: center;
+  padding-bottom: 30px;
+}
+
+.quarta-immagine{
+   padding-left: 350px;
+}
+.paragrafo-piccolo{
+    text-align: center;
+
+}
+.download-btn{
+    font-size: 18px;
+    background-color: #6f87da;
+    color: aliceblue;
+    margin-left: 700px;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    border: #6f87da;
+}
+
 .debug .col-big{
     background-color: #1e90ff;
     height: 480px;
