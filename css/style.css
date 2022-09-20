@@ -5,6 +5,7 @@ Reset
     box-sizing: border-box;
     margin:0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
 }
 
 /*---------
@@ -35,6 +36,7 @@ height: 50px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    color: white;
     
     
 }
@@ -56,14 +58,23 @@ height: 50px;
 }
 
 header{
-    padding: 16px 0;
+   
+    background-color: #255EE9;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height:570px;
 }
 .header-top .row {
     align-items: center;
 }
-.logo, .login {
+.logo .login {
     width: 20%;
     padding: 0 5px;
+}
+.btn {
+    border-radius: 5px;
+    background-color: white;
+    text-align: center;
 }
 
 .login {
@@ -77,6 +88,24 @@ header{
 
 }
 
+h1 {
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+    font-size: 40px;
+    margin-top: 60px;
+}
+p {display: flex;
+    justify-content: center;
+    color: aliceblue;
+    padding: auto;
+    font-size: 18px;
+    margin-top: 30px;
+
+}
+ .btn .btn-scarica{
+    text-align: center;
+ }
 .rosa{
     display: flex;
     text-align: center;
@@ -97,7 +126,7 @@ header{
     margin: auto;
 }
 
-.container{
+ .container{
     display: flex;
     padding: 60px;
 }
@@ -169,9 +198,11 @@ height: 50px;
 }
 
 .logo-footer{
-    
+    display: flex;
+    justify-content: space-between;
     background-color:#F08080 ;
     text-align: left;
+    ;
 }
 
 .bottone-footer{
